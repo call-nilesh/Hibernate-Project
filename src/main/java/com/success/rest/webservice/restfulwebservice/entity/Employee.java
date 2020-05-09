@@ -22,7 +22,6 @@ import lombok.Setter;
 @Setter
 public class Employee {	
 	
-	//Test Employee
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private int empId;
